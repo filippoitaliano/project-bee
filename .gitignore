@@ -74,3 +74,11 @@ typings/
 
 # FuseBox cache
 .fusebox/
+
+# Misc
+.DS_Store
+.vscode
+.idea
+.env
+dist
+build
