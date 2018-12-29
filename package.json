@@ -1,0 +1,14 @@
+{
+  "name": "project-bee",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "start": "node fotoresistor-rc-time.js"
+  },
+  "engines": {
+    "node": "^10"
+  },
+  "dependencies": {
+    "onoff": "^3.2.2"
+  }
+}
