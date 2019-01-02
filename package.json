@@ -9,6 +9,7 @@
     "node": "^10"
   },
   "dependencies": {
+    "i2c-bus": "^4.0.7",
     "onoff": "^3.2.2"
   }
 }
