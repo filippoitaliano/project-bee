@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Install mongodb on the raspoberry
+# Install mongodb on the raspberry
 
 cd $HOME
 
