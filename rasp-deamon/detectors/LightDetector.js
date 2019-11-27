@@ -1,6 +1,7 @@
 import { Observable } from 'rxjs';
 
 const PIN_NUMBER = 4;
+
 let _gpio;
 let _pin;
 
@@ -27,7 +28,7 @@ const quantity = new Observable(subscriber => {
 
   for(;;) {
     let rcTime = 0;
-    while (_pin.readSync() === Gpio.LOW) {
+    while (_pin.readSync() === _gpio.LOW) {
       rcTime += 1;
     }
     subscriber.next(rcTime);
