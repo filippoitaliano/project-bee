@@ -27,7 +27,7 @@ const quantity = new Observable(subscriber => {
 
   for(;;) {
     let rcTime = 0;
-    while (pin.readSync() === Gpio.LOW) {
+    while (_pin.readSync() === Gpio.LOW) {
       rcTime += 1;
     }
     subscriber.next(rcTime);
