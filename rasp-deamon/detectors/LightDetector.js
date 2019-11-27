@@ -5,9 +5,10 @@ let _gpio;
 let _pin;
 
 const initialize = () => {
+  // ! Check if this "conditional" require is still a thing
   try {
     _gpio = require('onoff').Gpio;
-  } catch () {
+  } catch (error) {
     console.log('Raspberry environment is required!\nKilling the deamon...');
     process.exit(0);
   }
